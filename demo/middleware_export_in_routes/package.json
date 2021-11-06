@@ -1,0 +1,29 @@
+{
+  "name": "export_middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "n",
+    "start": "node --es-module-specifier-resolution=node --loader module-alias_loader  index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "module-alias_loader": "^1.0.0",
+    "multer": "^1.4.3"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@middleware": "./middleware"
+  },
+  "volta": {
+    "node": "14.18.1",
+    "yarn": "1.22.17"
+  }
+}
