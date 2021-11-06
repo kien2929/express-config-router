@@ -1,0 +1,30 @@
+{
+  "name": "express-config-routes",
+  "version": "1.0.0",
+  "description": "A simple extention for config Express router ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kien2929/express-config-routes.git"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "config router",
+    "setup router"
+  ],
+  "author": "kien2929@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kien2929/express-config-routes/issues"
+  },
+  "homepage": "https://github.com/kien2929/express-config-routes#readme",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "express": "^4.17.1"
+  }
+}
