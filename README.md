@@ -57,7 +57,7 @@ generate express Route path:
 each js file's form
 
 ```js
-exports.get = (req, res) => {
+export default (req, res) => {
   res.send('ok')
 }
 ```
@@ -65,7 +65,7 @@ exports.get = (req, res) => {
 or
 
 ```js
-export default = (req, res) => {
+export default (req, res) => {
   res.send('ok')
 }
 ```
